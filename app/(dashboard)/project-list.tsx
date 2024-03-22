@@ -20,7 +20,7 @@ export default async function ProjectList() {
     return (
       <div className="flex flex-col gap-6 mt-6">
         <Alert>
-          <AlertTitle>You {`'don't'`} have any projects yet</AlertTitle>
+          <AlertTitle>You {`don't`} have any projects yet</AlertTitle>
           <AlertDescription className="flex items-center gap-2">
             Create your first project now!{" "}
             <span className="inline-flex">

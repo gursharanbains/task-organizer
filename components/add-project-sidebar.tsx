@@ -110,7 +110,7 @@ export default function AddProjectSidebar({
               name="color"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Name</FormLabel>
+                  <FormLabel>Color</FormLabel>
                   <FormControl>
                     <Select onValueChange={(color) => field.onChange(color)}>
                       <SelectTrigger
