@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Separator } from "@/components/ui/separator";
-import NavBar from "@/components/ui/NavBar";
+import NavBar from "@/components/ui/navbar";
 import ThemeProvider from "@/lib/providers/theme-provider";
 import { cn } from "@/lib/utils";
 import { Toaster } from "@/components/ui/toaster";
